@@ -6,7 +6,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the number of gallons: ");
         double gallons = input.nextInt();
-        System.out.print("In "+gallons+" gallons there are:");
+        System.out.println("In "+gallons+" gallons there are:");
         input.close();
         double quarts = gallons*4;
         double pints = gallons*8;
